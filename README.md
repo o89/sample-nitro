@@ -2,7 +2,7 @@
 
 ## Build
 
-First, build [N2O](https://github.com/o89/n2o) and [NITRO](https://github.com/o89/nitro).
+First, build [N2O](https://github.com/o89/n2o) and [NITRO](https://github.com/o89/nitro). Then:
 
 ```shell
 $ export LEAN_HOME=/path/to/lean4
