@@ -13,10 +13,10 @@ instance : BERT Example :=
 def index : Nitro Example → Result
 | Nitro.init ⇒ update Example "send" $
   Elem.button "send" [] "Send"
-    { source := ["msg"], type := "click", postback := Example.send}
+    { source := [ "msg" ], type := "click", postback := Example.send }
 | Nitro.message Example.send query ⇒
   match query.lookup "msg" with
-  | some value ⇒ insertBottom Example "hist" (div [] [Elem.liter value])
+  | some value ⇒ insertBottom Example "hist" (div [] [ Elem.liter value ])
   | _ ⇒ Result.ok
 | Nitro.error s ⇒ Result.ok
 | Nitro.ping ⇒ pong
