@@ -31,7 +31,7 @@ def router (cx : Nitro.cx Example) : Nitro.cx Example :=
 let handler := match Req.path cx.req with
 | "/ws/static/index.html" ⇒ index
 | "/ws/static/about.html" ⇒ about
-| _ ⇒ index;
+| _ ⇒ ignore;
 ⟨cx.req, handler⟩
 
 def handler : Handler := mkHandler (nitroProto Example) [ router ]
