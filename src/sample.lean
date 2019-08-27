@@ -1,7 +1,4 @@
-import init.system.io data.bert data.parser
-import network.n2o.web.http network.n2o.internal
-import web.nitro.elements web.nitro.javascript web.nitro.proto
-open network.n2o.web.http network.n2o.internal data.bert
+import network.n2o web.nitro data.bert
 
 inductive Example
 | send
