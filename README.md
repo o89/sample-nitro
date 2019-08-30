@@ -1,4 +1,4 @@
-# N2O project sample
+# NITRO project sample
 
 ## Build
 
