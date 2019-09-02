@@ -2,5 +2,5 @@
 
 ## Build
 
-Install [BUMP](https://github.com/o89/bump) and: `bump deps compile start`.
+Install [BUM](https://github.com/o89/bum) and: `bum deps compile start`.
 
