@@ -1,4 +1,6 @@
-import network.n2o web.nitro data.bert
+import Network.N2O
+import Web.NITRO
+import Data.BERT
 
 inductive Example
 | send
