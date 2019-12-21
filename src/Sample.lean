@@ -1,6 +1,5 @@
-import Network.N2O
-import Web.NITRO
-import Data.BERT
+import N2O.Default
+import NITRO.Default
 
 inductive Example
 | send
